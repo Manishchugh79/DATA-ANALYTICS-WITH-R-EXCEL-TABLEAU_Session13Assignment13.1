@@ -1,0 +1,999 @@
+Call:
+lm(formula = beat ~ MinOfucr + MaxOfnum_victims + loc_type + 
+    neighborhood + x + y, data = COBRA.YTD2017, na.action = na.omit)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-529.44   -5.40    0.22    6.06  414.65 
+
+Coefficients:
+                                            Estimate Std. Error  t value Pr(>|t|)    
+(Intercept)                                3.088e+02  3.606e+00   85.642  < 2e-16 ***
+MinOfucr                                   2.221e-02  2.590e-03    8.575  < 2e-16 ***
+MaxOfnum_victims                          -2.153e-01  3.911e-01   -0.550 0.582092    
+loc_type                                  -1.020e-01  1.629e-02   -6.258 3.97e-10 ***
+neighborhoodAdair Park                    -5.594e+01  3.485e+00  -16.050  < 2e-16 ***
+neighborhoodAdams Park                    -1.071e+01  5.388e+00   -1.988 0.046818 *  
+neighborhoodAdamsville                    -1.072e+02  3.165e+00  -33.883  < 2e-16 ***
+neighborhoodAlmond Park                   -1.922e+02  6.025e+00  -31.892  < 2e-16 ***
+neighborhoodAmal Heights                  -8.001e+01  8.495e+00   -9.419  < 2e-16 ***
+neighborhoodAnsley Park                    2.682e+02  5.615e+00   47.761  < 2e-16 ***
+neighborhoodArden/Habersham                3.451e+01  1.775e+01    1.945 0.051814 .  
+neighborhoodArdmore                       -1.492e+01  7.784e+00   -1.917 0.055272 .  
+neighborhoodArgonne Forest                 3.535e+01  1.409e+01    2.509 0.012120 *  
+neighborhoodArlington Estates             -9.771e+01  8.997e+00  -10.860  < 2e-16 ***
+neighborhoodAshley Courts                 -4.434e+01  6.127e+00   -7.237 4.73e-13 ***
+neighborhoodAshview Heights               -2.293e+02  3.854e+00  -59.512  < 2e-16 ***
+neighborhoodAtkins Park                    3.590e+02  2.281e+01   15.739  < 2e-16 ***
+neighborhoodAtlanta Industrial Park       -1.911e+02  8.154e+00  -23.430  < 2e-16 ***
+neighborhoodAtlanta University Center     -2.148e+02  4.086e+00  -52.588  < 2e-16 ***
+neighborhoodAtlantic Station               2.518e+02  3.440e+00   73.210  < 2e-16 ***
+neighborhoodAudobon Forest                 4.003e+00  9.935e+00    0.403 0.687009    
+neighborhoodAudobon Forest West           -1.011e+01  1.495e+01   -0.676 0.498808    
+neighborhoodBaker Hills                    2.365e+01  7.551e+00    3.132 0.001737 ** 
+neighborhoodBakers Ferry                   3.247e+00  1.767e+01    0.184 0.854218    
+neighborhoodBankhead                      -1.978e+02  3.669e+00  -53.917  < 2e-16 ***
+neighborhoodBankhead/Bolton               -2.120e+02  9.131e+00  -23.220  < 2e-16 ***
+neighborhoodBeecher Hills                  1.716e+01  1.100e+01    1.560 0.118877    
+neighborhoodBen Hill                      -1.239e+02  6.952e+00  -17.828  < 2e-16 ***
+neighborhoodBen Hill Acres                -8.011e+01  8.061e+00   -9.938  < 2e-16 ***
+neighborhoodBen Hill Forest               -1.018e+02  2.793e+01   -3.644 0.000269 ***
+neighborhoodBen Hill Pines                -9.275e+01  1.619e+01   -5.730 1.02e-08 ***
+neighborhoodBen Hill Terrace              -7.799e+01  7.388e+00  -10.557  < 2e-16 ***
+neighborhoodBenteen Park                   2.536e+02  6.511e+00   38.959  < 2e-16 ***
+neighborhoodBerkeley Park                 -3.422e+01  2.867e+00  -11.937  < 2e-16 ***
+neighborhoodBetmar LaVilla                -8.306e+01  5.885e+00  -14.114  < 2e-16 ***
+neighborhoodBlair Villa/Poole Creek       -1.533e+02  5.487e+00  -27.930  < 2e-16 ***
+neighborhoodBlandtown                     -5.819e+01  3.137e+00  -18.548  < 2e-16 ***
+neighborhoodBolton                        -3.747e+01  4.300e+00   -8.715  < 2e-16 ***
+neighborhoodBolton Hills                  -1.732e+02  1.615e+01  -10.724  < 2e-16 ***
+neighborhoodBoulder Park                  -2.017e+00  1.614e+01   -0.125 0.900583    
+neighborhoodBoulevard Heights              2.708e+02  6.281e+00   43.112  < 2e-16 ***
+neighborhoodBrandon                       -5.773e+00  1.153e+01   -0.501 0.616518    
+neighborhoodBrentwood                     -1.044e+02  1.501e+01   -6.955 3.62e-12 ***
+neighborhoodBriar Glen                    -6.678e+01  1.617e+01   -4.130 3.64e-05 ***
+neighborhoodBrookhaven                     1.103e+02  1.273e+01    8.662  < 2e-16 ***
+neighborhoodBrookview Heights             -2.056e+02  7.693e+00  -26.727  < 2e-16 ***
+neighborhoodBrookwood                     -1.984e+01  7.172e+00   -2.766 0.005674 ** 
+neighborhoodBrookwood Hills               -1.158e+01  6.011e+00   -1.927 0.054002 .  
+neighborhoodBrowns Mill Park              -1.083e+02  3.911e+00  -27.692  < 2e-16 ***
+neighborhoodBuckhead Forest                6.822e+01  3.968e+00   17.195  < 2e-16 ***
+neighborhoodBuckhead Heights               8.416e+01  6.912e+00   12.176  < 2e-16 ***
+neighborhoodBuckhead Village               5.630e+01  3.787e+00   14.866  < 2e-16 ***
+neighborhoodBush Mountain                  2.443e+01  8.318e+00    2.937 0.003316 ** 
+neighborhoodButner/Tell                   -1.055e+02  2.283e+01   -4.622 3.82e-06 ***
+neighborhoodCabbagetown                    3.089e+02  5.968e+00   51.762  < 2e-16 ***
+neighborhoodCampbellton Road              -2.648e+01  3.154e+00   -8.394  < 2e-16 ***
+neighborhoodCandler Park                   3.534e+02  3.686e+00   95.885  < 2e-16 ***
+neighborhoodCapitol Gateway                2.862e+02  6.367e+00   44.945  < 2e-16 ***
+neighborhoodCapitol View                  -8.205e+01  3.850e+00  -21.314  < 2e-16 ***
+neighborhoodCapitol View Manor            -7.716e+01  8.688e+00   -8.880  < 2e-16 ***
+neighborhoodCarey Park                    -1.900e+02  4.688e+00  -40.532  < 2e-16 ***
+neighborhoodCarroll Heights               -2.290e+02  6.685e+00  -34.257  < 2e-16 ***
+neighborhoodCarver Hills                  -1.664e+02  7.586e+00  -21.934  < 2e-16 ***
+neighborhoodCascade Avenue/Road            1.491e+01  3.650e+00    4.084 4.45e-05 ***
+neighborhoodCascade Green                 -3.778e+01  1.616e+01   -2.338 0.019380 *  
+neighborhoodCascade Heights               -1.374e+01  4.688e+00   -2.932 0.003374 ** 
+neighborhoodCastleberry Hill               1.847e+02  2.698e+00   68.487  < 2e-16 ***
+neighborhoodCastlewood                     2.267e+01  1.621e+01    1.398 0.162018    
+neighborhoodCenter Hill                   -2.125e+02  3.223e+00  -65.940  < 2e-16 ***
+neighborhoodChalet Woods                   3.127e+01  1.974e+01    1.584 0.113263    
+neighborhoodChanning Valley               -2.311e+01  7.515e+00   -3.075 0.002108 ** 
+neighborhoodChastain Park                  9.584e+01  8.971e+00   10.684  < 2e-16 ***
+neighborhoodChosewood Park                -4.798e+01  4.335e+00  -11.068  < 2e-16 ***
+neighborhoodCollier Heights               -2.200e+02  2.884e+00  -76.292  < 2e-16 ***
+neighborhoodCollier Hills                 -1.576e+01  1.107e+01   -1.424 0.154439    
+neighborhoodCollier Hills North           -7.174e+00  2.793e+01   -0.257 0.797261    
+neighborhoodColonial Homes                -1.751e+00  1.772e+01   -0.099 0.921295    
+neighborhoodCross Creek                   -1.726e+01  9.716e+00   -1.776 0.075671 .  
+neighborhoodCuster/McDonough/Guice         2.544e+02  4.403e+00   57.784  < 2e-16 ***
+neighborhoodDeerwood                      -9.579e+01  9.218e+00  -10.392  < 2e-16 ***
+neighborhoodDixie Hills                   -2.329e+02  4.114e+00  -56.621  < 2e-16 ***
+neighborhoodDowntown                       2.113e+02  1.675e+00  126.187  < 2e-16 ***
+neighborhoodDruid Hills                    3.727e+02  7.058e+00   52.809  < 2e-16 ***
+neighborhoodEast Ardley Road              -1.065e+01  2.279e+01   -0.467 0.640317    
+neighborhoodEast Atlanta                   3.081e+02  2.643e+00  116.587  < 2e-16 ***
+neighborhoodEast Chastain Park             1.171e+02  7.042e+00   16.635  < 2e-16 ***
+neighborhoodEast Lake                      3.528e+02  3.620e+00   97.446  < 2e-16 ***
+neighborhoodEdgewood                       3.384e+02  2.413e+00  140.246  < 2e-16 ***
+neighborhoodElmco Estates                 -9.468e+01  1.001e+01   -9.454  < 2e-16 ***
+neighborhoodEnglish Avenue                -1.822e+02  2.800e+00  -65.058  < 2e-16 ***
+neighborhoodEnglish Park                  -1.962e+02  9.647e+00  -20.340  < 2e-16 ***
+neighborhoodFairburn                      -8.784e+01  8.072e+00  -10.882  < 2e-16 ***
+neighborhoodFairburn Heights              -2.392e+02  5.658e+00  -42.277  < 2e-16 ***
+neighborhoodFairburn Mays                 -2.608e-01  4.187e+00   -0.062 0.950328    
+neighborhoodFairburn Road/Wisteria Lane    1.013e+01  1.495e+01    0.677 0.498121    
+neighborhoodFairburn Tell                 -9.799e+01  3.945e+01   -2.484 0.013008 *  
+neighborhoodFairway Acres                 -1.051e+02  1.619e+01   -6.490 8.76e-11 ***
+neighborhoodFernleaf                      -2.435e+01  1.618e+01   -1.505 0.132436    
+neighborhoodFlorida Heights               -1.341e+02  4.629e+00  -28.959  < 2e-16 ***
+neighborhoodFort McPherson                -1.178e+00  2.790e+01   -0.042 0.966315    
+neighborhoodFort Valley                   -1.903e+01  6.628e+00   -2.871 0.004089 ** 
+neighborhoodGarden Hills                   4.575e+01  4.233e+00   10.810  < 2e-16 ***
+neighborhoodGeorgia Tech                   2.323e+02  2.791e+01    8.325  < 2e-16 ***
+neighborhoodGlenrose Heights              -1.316e+02  3.279e+00  -40.127  < 2e-16 ***
+neighborhoodGrant Park                     2.886e+02  2.533e+00  113.945  < 2e-16 ***
+neighborhoodGreen Acres Valley            -1.467e+01  1.768e+01   -0.830 0.406707    
+neighborhoodGreen Forest Acres            -8.231e+00  1.400e+01   -0.588 0.556440    
+neighborhoodGreenbriar                    -8.013e+01  2.670e+00  -30.016  < 2e-16 ***
+neighborhoodGreenbriar Village            -7.815e+01  1.404e+01   -5.568 2.61e-08 ***
+neighborhoodGrove Park                    -2.037e+02  2.677e+00  -76.086  < 2e-16 ***
+neighborhoodHammond Park                  -1.334e+02  3.487e+00  -38.266  < 2e-16 ***
+neighborhoodHanover West                  -1.605e+01  1.771e+01   -0.906 0.364883    
+neighborhoodHarland Terrace                3.398e+00  3.053e+00    1.113 0.265752    
+neighborhoodHarris Chiles                 -2.319e+02  5.321e+00  -43.571  < 2e-16 ***
+neighborhoodHarvel Homes Community        -2.362e+02  2.790e+01   -8.467  < 2e-16 ***
+neighborhoodHeritage Valley               -5.375e+01  9.971e+00   -5.391 7.09e-08 ***
+neighborhoodHigh Point                    -6.895e+01  9.639e+00   -7.153 8.75e-13 ***
+neighborhoodHills Park                    -5.258e+01  4.836e+00  -10.874  < 2e-16 ***
+neighborhoodHome Park                      2.364e+02  2.476e+00   95.492  < 2e-16 ***
+neighborhoodHorseshoe Community           -2.681e+01  2.790e+01   -0.961 0.336607    
+neighborhoodHunter Hills                  -2.145e+02  3.777e+00  -56.789  < 2e-16 ***
+neighborhoodHuntington                    -1.373e+02  2.285e+01   -6.008 1.91e-09 ***
+neighborhoodInman Park                     3.329e+02  2.612e+00  127.487  < 2e-16 ***
+neighborhoodIvan Hill                      1.963e+01  1.252e+01    1.567 0.117151    
+neighborhoodJoyland                       -7.231e+01  7.081e+00  -10.211  < 2e-16 ***
+neighborhoodJust Us                       -2.265e+02  3.943e+01   -5.744 9.39e-09 ***
+neighborhoodKings Forest                  -7.272e+01  5.710e+00  -12.736  < 2e-16 ***
+neighborhoodKingswood                      4.664e+01  2.795e+01    1.668 0.095246 .  
+neighborhoodKirkwood                       3.499e+02  3.518e+00   99.454  < 2e-16 ***
+neighborhoodKnight Park/Howell Station    -1.739e+02  7.008e+00  -24.816  < 2e-16 ***
+neighborhoodLake Claire                    3.634e+02  5.913e+00   61.455  < 2e-16 ***
+neighborhoodLake Estates                  -1.091e+02  3.947e+01   -2.764 0.005716 ** 
+neighborhoodLakewood                      -8.625e+01  6.602e+00  -13.064  < 2e-16 ***
+neighborhoodLakewood Heights              -7.485e+01  2.594e+00  -28.855  < 2e-16 ***
+neighborhoodLaurens Valley                -3.553e+01  2.790e+01   -1.273 0.202956    
+neighborhoodLeila Valley                  -8.211e+01  6.008e+00  -13.666  < 2e-16 ***
+neighborhoodLenox                          8.408e+01  3.095e+00   27.168  < 2e-16 ***
+neighborhoodLincoln Homes                 -1.737e+02  8.004e+00  -21.695  < 2e-16 ***
+neighborhoodLindbergh/Morosgo              4.112e+01  2.714e+00   15.147  < 2e-16 ***
+neighborhoodLindridge/Martin Manor         4.212e+01  3.498e+00   12.041  < 2e-16 ***
+neighborhoodLoring Heights                -3.741e+01  3.625e+00  -10.321  < 2e-16 ***
+neighborhoodMagnum Manor                  -1.892e+01  1.321e+01   -1.433 0.152003    
+neighborhoodMargaret Mitchell             -3.024e+00  1.620e+01   -0.187 0.851911    
+neighborhoodMarietta Street Artery         2.257e+02  3.741e+00   60.326  < 2e-16 ***
+neighborhoodMays                           8.219e+00  5.288e+00    1.554 0.120166    
+neighborhoodMeadowbrook Forest            -7.720e+01  1.200e+01   -6.434 1.27e-10 ***
+neighborhoodMechanicsville                -3.398e+01  2.337e+00  -14.540  < 2e-16 ***
+neighborhoodMellwood                      -2.445e+02  2.792e+01   -8.758  < 2e-16 ***
+neighborhoodMemorial Park                 -4.356e+00  2.793e+01   -0.156 0.876069    
+neighborhoodMidtown                        2.483e+02  1.929e+00  128.724  < 2e-16 ***
+neighborhoodMidwest Cascade               -3.968e+01  6.914e+00   -5.739 9.66e-09 ***
+neighborhoodMonroe Heights                -1.826e+02  6.535e+00  -27.947  < 2e-16 ***
+neighborhoodMorningside/Lenox Park         1.177e+01  2.927e+00    4.023 5.77e-05 ***
+neighborhoodMozley Park                   -2.374e+02  4.292e+00  -55.304  < 2e-16 ***
+neighborhoodMt. Gilead Woods              -6.112e+01  1.498e+01   -4.080 4.52e-05 ***
+neighborhoodMt. Paran Parkway              8.077e+01  3.949e+01    2.046 0.040809 *  
+neighborhoodMt. Paran/Northside            7.260e+01  9.851e+00    7.370 1.77e-13 ***
+neighborhoodNiskey Cove                   -6.749e+01  2.791e+01   -2.418 0.015619 *  
+neighborhoodNiskey Lake                   -5.861e+01  1.977e+01   -2.965 0.003028 ** 
+neighborhoodNorth Buckhead                 8.552e+01  3.131e+00   27.315  < 2e-16 ***
+neighborhoodNorwood Manor                 -7.743e+01  6.433e+00  -12.036  < 2e-16 ***
+neighborhoodOakcliff                      -2.579e+02  1.495e+01  -17.252  < 2e-16 ***
+neighborhoodOakland                        2.976e+02  8.700e+00   34.202  < 2e-16 ***
+neighborhoodOakland City                   1.604e+01  2.971e+00    5.398 6.80e-08 ***
+neighborhoodOld Fairburn Village          -4.514e+01  3.944e+01   -1.145 0.252421    
+neighborhoodOld Fourth Ward                3.293e+02  2.142e+00  153.720  < 2e-16 ***
+neighborhoodOld Gordon                    -2.503e+02  8.688e+00  -28.811  < 2e-16 ***
+neighborhoodOrchard Knob                  -1.258e+02  6.902e+00  -18.222  < 2e-16 ***
+neighborhoodOrmewood Park                  2.985e+02  3.582e+00   83.338  < 2e-16 ***
+neighborhoodPaces                          2.661e+01  8.001e+00    3.326 0.000882 ***
+neighborhoodPeachtree Battle Alliance      6.536e+00  1.109e+01    0.589 0.555800    
+neighborhoodPeachtree Heights East         3.028e+01  1.112e+01    2.722 0.006487 ** 
+neighborhoodPeachtree Heights West         4.196e+01  4.710e+00    8.907  < 2e-16 ***
+neighborhoodPeachtree Hills                2.127e+01  5.958e+00    3.570 0.000358 ***
+neighborhoodPeachtree Park                 6.859e+01  5.270e+00   13.015  < 2e-16 ***
+neighborhoodPenelope Neighbors            -2.376e+02  1.145e+01  -20.752  < 2e-16 ***
+neighborhoodPeoplestown                   -4.417e+01  3.498e+00  -12.628  < 2e-16 ***
+neighborhoodPerkerson                     -1.263e+02  3.072e+00  -41.123  < 2e-16 ***
+neighborhoodPeyton Forest                  2.126e+01  1.252e+01    1.698 0.089554 .  
+neighborhoodPiedmont Heights               7.225e+00  3.350e+00    2.157 0.031022 *  
+neighborhoodPine Hills                     6.717e+01  4.197e+00   16.003  < 2e-16 ***
+neighborhoodPittsburgh                    -5.171e+01  2.691e+00  -19.219  < 2e-16 ***
+neighborhoodPleasant Hill                  3.884e+01  1.776e+01    2.188 0.028707 *  
+neighborhoodPolar Rock                    -9.784e+01  7.311e+00  -13.382  < 2e-16 ***
+neighborhoodPomona Park                   -1.539e+01  2.791e+01   -0.551 0.581376    
+neighborhoodPoncey-Highland                3.494e+02  3.385e+00  103.210  < 2e-16 ***
+neighborhoodPrinceton Lakes               -1.367e+02  2.929e+00  -46.686  < 2e-16 ***
+neighborhoodRandall Mill                   3.644e+01  7.389e+00    4.931 8.23e-07 ***
+neighborhoodRebel Valley Forest           -8.822e+01  6.979e+00  -12.641  < 2e-16 ***
+neighborhoodReynoldstown                   3.229e+02  4.095e+00   78.851  < 2e-16 ***
+neighborhoodRidgecrest Forest             -3.635e-01  1.196e+01   -0.030 0.975746    
+neighborhoodRidgedale Park                 9.914e+01  7.993e+00   12.404  < 2e-16 ***
+neighborhoodRidgewood Heights             -2.189e+01  1.151e+01   -1.902 0.057201 .  
+neighborhoodRiverside                     -6.176e+01  4.312e+00  -14.322  < 2e-16 ***
+neighborhoodRockdale                      -1.745e+02  5.976e+00  -29.196  < 2e-16 ***
+neighborhoodRosedale Heights              -1.086e+02  6.531e+00  -16.628  < 2e-16 ***
+neighborhoodRue Royal                     -8.399e+01  2.793e+01   -3.007 0.002637 ** 
+neighborhoodSandlewood Estates            -8.392e+01  1.151e+01   -7.291 3.18e-13 ***
+neighborhoodScotts Crossing               -1.555e+02  5.760e+00  -26.992  < 2e-16 ***
+neighborhoodSherwood Forest                2.850e+02  1.978e+01   14.403  < 2e-16 ***
+ [ reached getOption("max.print") -- omitted 43 rows ]
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 39.41 on 23172 degrees of freedom
+  (3344 observations deleted due to missingness)
+Multiple R-squared:  0.9464,	Adjusted R-squared:  0.9459 
+F-statistic:  1692 on 242 and 23172 DF,  p-value: < 2.2e-16
+
+> vif(fit)
+                         GVIF  Df GVIF^(1/(2*Df))
+MinOfucr             1.171762   1        1.082480
+MaxOfnum_victims     1.024168   1        1.012012
+loc_type             1.026056   1        1.012944
+neighborhood        11.793507 237        1.005219
+x                23807.337631   1      154.296266
+y                23818.989658   1      154.334020
+> fit1<-lm(formula=MinOfucr~beat+MaxOfnum_victims+loc_type+neighborhood+x+y,data =COBRA.YTD2017)
+> fit1
+
+Call:
+lm(formula = MinOfucr ~ beat + MaxOfnum_victims + loc_type + 
+    neighborhood + x + y, data = COBRA.YTD2017)
+
+Coefficients:
+                              (Intercept)                                       beat  
+                                183.98780                                    0.14243  
+                         MaxOfnum_victims                                   loc_type  
+                                -12.67175                                   -0.06147  
+                   neighborhoodAdair Park                     neighborhoodAdams Park  
+                                 -1.16444                                  -24.95718  
+                   neighborhoodAdamsville                    neighborhoodAlmond Park  
+                                 -5.49447                                    5.15041  
+                 neighborhoodAmal Heights                    neighborhoodAnsley Park  
+                                 -1.74562                                  -30.66283  
+              neighborhoodArden/Habersham                        neighborhoodArdmore  
+                                  6.64751                                   32.81552  
+               neighborhoodArgonne Forest              neighborhoodArlington Estates  
+                                 72.04469                                  -50.17727  
+                neighborhoodAshley Courts                neighborhoodAshview Heights  
+                                -24.03450                                   -6.74080  
+                  neighborhoodAtkins Park        neighborhoodAtlanta Industrial Park  
+                                -39.41791                                   72.86904  
+    neighborhoodAtlanta University Center               neighborhoodAtlantic Station  
+                                 25.13511                                  -12.94553  
+               neighborhoodAudobon Forest            neighborhoodAudobon Forest West  
+                                 -5.97875                                   43.72563  
+                  neighborhoodBaker Hills                   neighborhoodBakers Ferry  
+                                -37.74496                                  -22.21551  
+                     neighborhoodBankhead                neighborhoodBankhead/Bolton  
+                                -46.64076                                   58.35139  
+                neighborhoodBeecher Hills                       neighborhoodBen Hill  
+                                -10.11155                                  -18.32498  
+               neighborhoodBen Hill Acres                neighborhoodBen Hill Forest  
+                                -31.64036                                  108.55863  
+               neighborhoodBen Hill Pines               neighborhoodBen Hill Terrace  
+                                -19.92927                                  -13.65155  
+                 neighborhoodBenteen Park                  neighborhoodBerkeley Park  
+                                -67.76345                                   31.66054  
+               neighborhoodBetmar LaVilla        neighborhoodBlair Villa/Poole Creek  
+                                 25.88440                                   25.90533  
+                    neighborhoodBlandtown                         neighborhoodBolton  
+                                 47.45066                                   24.07525  
+                 neighborhoodBolton Hills                   neighborhoodBoulder Park  
+                                 26.19894                                  -37.33502  
+            neighborhoodBoulevard Heights                        neighborhoodBrandon  
+                                -37.89734                                   67.65816  
+                    neighborhoodBrentwood                     neighborhoodBriar Glen  
+                                -89.35237                                   33.76307  
+                   neighborhoodBrookhaven              neighborhoodBrookview Heights  
+                                 13.62287                                   33.47464  
+                    neighborhoodBrookwood                neighborhoodBrookwood Hills  
+                                  2.04586                                   12.08225  
+             neighborhoodBrowns Mill Park                neighborhoodBuckhead Forest  
+                                -17.07779                                   28.35028  
+             neighborhoodBuckhead Heights               neighborhoodBuckhead Village  
+                                  1.97872                                   14.28790  
+                neighborhoodBush Mountain                    neighborhoodButner/Tell  
+                                -18.48886                                  -46.87903  
+                  neighborhoodCabbagetown               neighborhoodCampbellton Road  
+                                 -7.00131                                  -41.19717  
+                 neighborhoodCandler Park                neighborhoodCapitol Gateway  
+                                -20.19336                                   16.08137  
+                 neighborhoodCapitol View             neighborhoodCapitol View Manor  
+                                 -6.00118                                   39.59662  
+                   neighborhoodCarey Park                neighborhoodCarroll Heights  
+                                -45.18708                                  -19.48761  
+                 neighborhoodCarver Hills            neighborhoodCascade Avenue/Road  
+                                -37.24059                                  -16.94025  
+                neighborhoodCascade Green                neighborhoodCascade Heights  
+                                 12.02139                                   -0.54782  
+             neighborhoodCastleberry Hill                     neighborhoodCastlewood  
+                                -13.81734                                   48.53463  
+                  neighborhoodCenter Hill                   neighborhoodChalet Woods  
+                                 24.24381                                  -62.95569  
+              neighborhoodChanning Valley                  neighborhoodChastain Park  
+                                 52.03949                                    6.54934  
+               neighborhoodChosewood Park                neighborhoodCollier Heights  
+                                 -3.06345                                   26.66934  
+                neighborhoodCollier Hills            neighborhoodCollier Hills North  
+                                 -1.57088                                   64.48398  
+               neighborhoodColonial Homes                    neighborhoodCross Creek  
+                                 51.51639                                   44.87441  
+       neighborhoodCuster/McDonough/Guice                       neighborhoodDeerwood  
+                                -86.35629                                   11.11434  
+                  neighborhoodDixie Hills                       neighborhoodDowntown  
+                                 -5.46251                                  -12.41681  
+                  neighborhoodDruid Hills               neighborhoodEast Ardley Road  
+                                -35.21637                                    0.81515  
+                 neighborhoodEast Atlanta             neighborhoodEast Chastain Park  
+                                -69.83864                                   13.98090  
+                    neighborhoodEast Lake                       neighborhoodEdgewood  
+                                -72.44953                                  -33.64526  
+                neighborhoodElmco Estates                 neighborhoodEnglish Avenue  
+                                -47.61853                                   -9.10065  
+                 neighborhoodEnglish Park                       neighborhoodFairburn  
+                                 -8.81457                                   -4.33549  
+             neighborhoodFairburn Heights                  neighborhoodFairburn Mays  
+                                -43.15391                                  -36.62452  
+  neighborhoodFairburn Road/Wisteria Lane                  neighborhoodFairburn Tell  
+                                 27.48272                                   37.84429  
+                neighborhoodFairway Acres                       neighborhoodFernleaf  
+                                 15.97263                                   72.87427  
+              neighborhoodFlorida Heights                 neighborhoodFort McPherson  
+                                -18.94462                                  -40.59108  
+                  neighborhoodFort Valley                   neighborhoodGarden Hills  
+                                -82.49135                                   27.10014  
+                 neighborhoodGeorgia Tech               neighborhoodGlenrose Heights  
+                                 37.27899                                    0.69584  
+                   neighborhoodGrant Park             neighborhoodGreen Acres Valley  
+                                -31.08183                                  -44.08826  
+           neighborhoodGreen Forest Acres                     neighborhoodGreenbriar  
+                                  2.03632                                    1.99187  
+           neighborhoodGreenbriar Village                     neighborhoodGrove Park  
+                                -66.37890                                   -9.03229  
+                 neighborhoodHammond Park                   neighborhoodHanover West  
+                                -13.79550                                   69.59290  
+              neighborhoodHarland Terrace                  neighborhoodHarris Chiles  
+                                -41.51953                                   44.46172  
+       neighborhoodHarvel Homes Community                neighborhoodHeritage Valley  
+                               -152.67153                                    2.94675  
+                   neighborhoodHigh Point                     neighborhoodHills Park  
+                                 65.19298                                   40.89479  
+                    neighborhoodHome Park            neighborhoodHorseshoe Community  
+                                -10.48065                                  -27.55456  
+                 neighborhoodHunter Hills                     neighborhoodHuntington  
+                                -11.89208                                   24.97747  
+                   neighborhoodInman Park                      neighborhoodIvan Hill  
+                                -25.90631                                    0.18995  
+                      neighborhoodJoyland                        neighborhoodJust Us  
+                                -88.90014                                  115.46896  
+                 neighborhoodKings Forest                      neighborhoodKingswood  
+                                -36.03929                                   69.87008  
+                     neighborhoodKirkwood     neighborhoodKnight Park/Howell Station  
+                                -62.46441                                   71.46469  
+                  neighborhoodLake Claire                   neighborhoodLake Estates  
+                                 -7.20788                                 -276.29395  
+                     neighborhoodLakewood               neighborhoodLakewood Heights  
+                                -27.92744                                  -23.93741  
+               neighborhoodLaurens Valley                   neighborhoodLeila Valley  
+                                 57.13108                                  -33.37532  
+                        neighborhoodLenox                  neighborhoodLincoln Homes  
+                                 27.69189                                  -25.34098  
+            neighborhoodLindbergh/Morosgo         neighborhoodLindridge/Martin Manor  
+                                 10.80412                                    5.64553  
+               neighborhoodLoring Heights                   neighborhoodMagnum Manor  
+                                 13.41215                                   39.36476  
+            neighborhoodMargaret Mitchell         neighborhoodMarietta Street Artery  
+                                 57.26396                                   -3.36020  
+                         neighborhoodMays             neighborhoodMeadowbrook Forest  
+                                -16.93900                                   -8.17084  
+               neighborhoodMechanicsville                       neighborhoodMellwood  
+                                 -6.86339                                   74.03428  
+                neighborhoodMemorial Park                        neighborhoodMidtown  
+                                 99.55969                                   -6.27314  
+              neighborhoodMidwest Cascade                 neighborhoodMonroe Heights  
+                                 37.52394                                    5.36775  
+       neighborhoodMorningside/Lenox Park                    neighborhoodMozley Park  
+                                 25.70184                                   -1.87526  
+             neighborhoodMt. Gilead Woods              neighborhoodMt. Paran Parkway  
+                                -61.49966                                   31.53809  
+          neighborhoodMt. Paran/Northside                    neighborhoodNiskey Cove  
+                                 -3.01141                                   15.94718  
+                  neighborhoodNiskey Lake                 neighborhoodNorth Buckhead  
+                                 51.94337                                   27.82748  
+                neighborhoodNorwood Manor                       neighborhoodOakcliff  
+                                -13.85229                                   62.09365  
+                      neighborhoodOakland                   neighborhoodOakland City  
+                                -38.31762                                  -38.59791  
+         neighborhoodOld Fairburn Village                neighborhoodOld Fourth Ward  
+                                 33.39344                                  -44.83256  
+                   neighborhoodOld Gordon                   neighborhoodOrchard Knob  
+                                 10.85688                                    0.78361  
+                neighborhoodOrmewood Park                          neighborhoodPaces  
+                                -67.87716                                   41.00845  
+    neighborhoodPeachtree Battle Alliance         neighborhoodPeachtree Heights East  
+                                 64.91933                                   31.94805  
+       neighborhoodPeachtree Heights West                neighborhoodPeachtree Hills  
+                                 25.61904                                   31.59546  
+               neighborhoodPeachtree Park             neighborhoodPenelope Neighbors  
+                                  7.34794                                  -74.93350  
+                  neighborhoodPeoplestown                      neighborhoodPerkerson  
+                                -29.79353                                   12.11922  
+                neighborhoodPeyton Forest               neighborhoodPiedmont Heights  
+                                  9.89081                                    9.70736  
+                   neighborhoodPine Hills                     neighborhoodPittsburgh  
+                                  6.89367                                   -4.17695  
+                neighborhoodPleasant Hill                     neighborhoodPolar Rock  
+                                 46.81742                                    2.54844  
+                  neighborhoodPomona Park                neighborhoodPoncey-Highland  
+                                 -0.70578                                  -21.83963  
+              neighborhoodPrinceton Lakes                   neighborhoodRandall Mill  
+                                 38.74837                                   39.14941  
+          neighborhoodRebel Valley Forest                   neighborhoodReynoldstown  
+                                 -9.37548                                  -60.85620  
+            neighborhoodRidgecrest Forest                 neighborhoodRidgedale Park  
+                                -31.98371                                    3.38582  
+            neighborhoodRidgewood Heights                      neighborhoodRiverside  
+                                 29.60442                                   21.50418  
+                     neighborhoodRockdale               neighborhoodRosedale Heights  
+                                 50.21705                                  -23.77424  
+                    neighborhoodRue Royal             neighborhoodSandlewood Estates  
+                               -177.49055                                   -3.36595  
+              neighborhoodScotts Crossing                neighborhoodSherwood Forest  
+                                 -1.25164                                  -61.43911  
+                neighborhoodSouth Atlanta            neighborhoodSouth River Gardens  
+                                -30.66881                                    5.24111  
+            neighborhoodSouth Tuxedo Park                      neighborhoodSouthwest  
+                                 20.07772                                  -38.16896  
+                   neighborhoodSpringlake                     neighborhoodSummerhill  
+                                 56.78016                                    6.25691  
+       neighborhoodSwallow Circle/Baywood                   neighborhoodSweet Auburn  
+                                  4.94656                                  -32.40186  
+                 neighborhoodSylvan Hills                     neighborhoodTampa Park  
+                                 -0.71587                                   61.02861  
+       neighborhoodThe Villages at Carver  neighborhoodThe Villages at Castleberry H  
+                                  4.89575                                   -9.26153  
+    neighborhoodThe Villages at East Lake            neighborhoodThomasville Heights  
+                                -62.58692                                  -54.91313  
+                  neighborhoodTuxedo Park                neighborhoodUnderwood Hills  
+                                 17.20212                                   37.83838  
+               neighborhoodVenetian Hills                      neighborhoodVine City  
+                                -44.47823                                    5.04435  
+            neighborhoodVirginia Highland                neighborhoodWashington Park  
+                                -20.23028                                   -8.60358  
+                neighborhoodWesley Battle                       neighborhoodWest End  
+                                 29.20983                                  -29.26137  
+               neighborhoodWest Highlands                      neighborhoodWest Lake  
+                                 38.31998                                  -24.41596  
+                   neighborhoodWest Manor     neighborhoodWest Paces Ferry/Northside  
+                                 31.50297                                   36.42196  
+                    neighborhoodWesthaven             neighborhoodWestminster/Milmar  
+                                 12.94456                                   23.82344  
+          neighborhoodWestover Plantation                       neighborhoodWestview  
+                                 91.06265                                  -24.25600  
+             neighborhoodWestwood Terrace               neighborhoodWhitewater Creek  
+                                -24.73786                                  -39.11160  
+        neighborhoodWhittier Mill Village               neighborhoodWildwood (NPU-C)  
+                                 61.33073                                   37.48528  
+             neighborhoodWildwood (NPU-H)                neighborhoodWildwood Forest  
+                                -54.60704                                  -15.11501  
+          neighborhoodWilson Mill Meadows               neighborhoodWisteria Gardens  
+                                -30.36916                                   25.14738  
+                    neighborhoodWoodfield                 neighborhoodWoodland Hills  
+                                 47.89039                                  -41.38487  
+                      neighborhoodWyngate                                          x  
+                                 50.96605                                   60.47189  
+                                        y  
+                                162.79456  
+
+> summary(fit1)
+
+Call:
+lm(formula = MinOfucr ~ beat + MaxOfnum_victims + loc_type + 
+    neighborhood + x + y, data = COBRA.YTD2017)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-333.96  -36.06   21.83   61.68  438.61 
+
+Coefficients:
+                                            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)                                183.98780   10.40623  17.681  < 2e-16 ***
+beat                                         0.14243    0.01661   8.575  < 2e-16 ***
+MaxOfnum_victims                           -12.67175    0.98697 -12.839  < 2e-16 ***
+loc_type                                    -0.06147    0.04129  -1.489 0.136623    
+neighborhoodAdair Park                      -1.16444    8.87488  -0.131 0.895613    
+neighborhoodAdams Park                     -24.95718   13.64313  -1.829 0.067370 .  
+neighborhoodAdamsville                      -5.49447    8.20976  -0.669 0.503336    
+neighborhoodAlmond Park                      5.15041   15.58872   0.330 0.741106    
+neighborhoodAmal Heights                    -1.74562   21.55404  -0.081 0.935452    
+neighborhoodAnsley Park                    -30.66283   14.90031  -2.058 0.039614 *  
+neighborhoodArden/Habersham                  6.64751   44.94562   0.148 0.882422    
+neighborhoodArdmore                         32.81552   19.71085   1.665 0.095957 .  
+neighborhoodArgonne Forest                  72.04469   35.68745   2.019 0.043523 *  
+neighborhoodArlington Estates              -50.17727   22.83881  -2.197 0.028029 *  
+neighborhoodAshley Courts                  -24.03450   15.53165  -1.547 0.121768    
+neighborhoodAshview Heights                 -6.74080   10.47775  -0.643 0.520007    
+neighborhoodAtkins Park                    -39.41791   58.07207  -0.679 0.497287    
+neighborhoodAtlanta Industrial Park         72.86904   20.88618   3.489 0.000486 ***
+neighborhoodAtlanta University Center       25.13511   10.94446   2.297 0.021650 *  
+neighborhoodAtlantic Station               -12.94553    9.66500  -1.339 0.180446    
+neighborhoodAudobon Forest                  -5.97875   25.15904  -0.238 0.812164    
+neighborhoodAudobon Forest West             43.72563   37.86685   1.155 0.248217    
+neighborhoodBaker Hills                    -37.74496   19.12448  -1.974 0.048434 *  
+neighborhoodBakers Ferry                   -22.21551   44.75458  -0.496 0.619627    
+neighborhoodBankhead                       -46.64076    9.85133  -4.734 2.21e-06 ***
+neighborhoodBankhead/Bolton                 58.35139   23.38581   2.495 0.012597 *  
+neighborhoodBeecher Hills                  -10.11155   27.86253  -0.363 0.716677    
+neighborhoodBen Hill                       -18.32498   17.72395  -1.034 0.301189    
+neighborhoodBen Hill Acres                 -31.64036   20.45652  -1.547 0.121946    
+neighborhoodBen Hill Forest                108.55863   70.73677   1.535 0.124875    
+neighborhoodBen Hill Pines                 -19.92927   41.01709  -0.486 0.627059    
+neighborhoodBen Hill Terrace               -13.65155   18.75246  -0.728 0.466629    
+neighborhoodBenteen Park                   -67.76345   17.01253  -3.983 6.82e-05 ***
+neighborhoodBerkeley Park                   31.66054    7.27952   4.349 1.37e-05 ***
+neighborhoodBetmar LaVilla                  25.88440   14.96675   1.729 0.083740 .  
+neighborhoodBlair Villa/Poole Creek         25.90533   14.12576   1.834 0.066681 .  
+neighborhoodBlandtown                       47.45066    7.99773   5.933 3.02e-09 ***
+neighborhoodBolton                          24.07525   10.90467   2.208 0.027268 *  
+neighborhoodBolton Hills                    26.19894   41.00062   0.639 0.522837    
+neighborhoodBoulder Park                   -37.33502   40.87670  -0.913 0.361064    
+neighborhoodBoulevard Heights              -37.89734   16.52812  -2.293 0.021863 *  
+neighborhoodBrandon                         67.65816   29.18605   2.318 0.020449 *  
+neighborhoodBrentwood                      -89.35237   38.05436  -2.348 0.018882 *  
+neighborhoodBriar Glen                      33.76307   40.95960   0.824 0.409777    
+neighborhoodBrookhaven                      13.62287   32.29803   0.422 0.673185    
+neighborhoodBrookview Heights               33.47464   19.77657   1.693 0.090537 .  
+neighborhoodBrookwood                        2.04586   18.16387   0.113 0.910322    
+neighborhoodBrookwood Hills                 12.08225   15.22187   0.794 0.427353    
+neighborhoodBrowns Mill Park               -17.07779   10.06470  -1.697 0.089748 .  
+neighborhoodBuckhead Forest                 28.35028   10.10922   2.804 0.005045 ** 
+neighborhoodBuckhead Heights                 1.97872   17.55909   0.113 0.910278    
+neighborhoodBuckhead Village                14.28790    9.63622   1.483 0.138160    
+neighborhoodBush Mountain                  -18.48886   21.06651  -0.878 0.380147    
+neighborhoodButner/Tell                    -46.87903   57.83658  -0.811 0.417637    
+neighborhoodCabbagetown                     -7.00131   15.96335  -0.439 0.660965    
+neighborhoodCampbellton Road               -41.19717    7.99497  -5.153 2.59e-07 ***
+neighborhoodCandler Park                   -20.19336   11.03059  -1.831 0.067163 .  
+neighborhoodCapitol Gateway                 16.08137   16.81071   0.957 0.338772    
+neighborhoodCapitol View                    -6.00118    9.84386  -0.610 0.542108    
+neighborhoodCapitol View Manor              39.59662   22.03754   1.797 0.072383 .  
+neighborhoodCarey Park                     -45.18708   12.28106  -3.679 0.000234 ***
+neighborhoodCarroll Heights                -19.48761   17.35058  -1.123 0.261378    
+neighborhoodCarver Hills                   -37.24059   19.40648  -1.919 0.055000 .  
+neighborhoodCascade Avenue/Road            -16.94025    9.24633  -1.832 0.066949 .  
+neighborhoodCascade Green                   12.02139   40.91864   0.294 0.768923    
+neighborhoodCascade Heights                 -0.54782   11.87240  -0.046 0.963197    
+neighborhoodCastleberry Hill               -13.81734    7.48991  -1.845 0.065080 .  
+neighborhoodCastlewood                      48.53463   41.06086   1.182 0.237211    
+neighborhoodCenter Hill                     24.24381    8.89365   2.726 0.006416 ** 
+neighborhoodChalet Woods                   -62.95569   49.99941  -1.259 0.207997    
+neighborhoodChanning Valley                 52.03949   19.03228   2.734 0.006257 ** 
+neighborhoodChastain Park                    6.54934   22.77241   0.288 0.773656    
+neighborhoodChosewood Park                  -3.06345   11.00551  -0.278 0.780741    
+neighborhoodCollier Heights                 26.66934    8.16679   3.266 0.001094 ** 
+neighborhoodCollier Hills                   -1.57088   28.03153  -0.056 0.955311    
+neighborhoodCollier Hills North             64.48398   70.71828   0.912 0.361861    
+neighborhoodColonial Homes                  51.51639   44.87369   1.148 0.250968    
+neighborhoodCross Creek                     44.87441   24.60452   1.824 0.068191 .  
+neighborhoodCuster/McDonough/Guice         -86.35629   11.91146  -7.250 4.30e-13 ***
+neighborhoodDeerwood                        11.11434   23.39644   0.475 0.634760    
+neighborhoodDixie Hills                     -5.46251   11.11481  -0.491 0.623104    
+neighborhoodDowntown                       -12.41681    5.50746  -2.255 0.024171 *  
+neighborhoodDruid Hills                    -35.21637   18.91686  -1.862 0.062667 .  
+neighborhoodEast Ardley Road                 0.81515   57.71572   0.014 0.988731    
+neighborhoodEast Atlanta                   -69.83864    8.41722  -8.297  < 2e-16 ***
+neighborhoodEast Chastain Park              13.98090   17.93875   0.779 0.435771    
+neighborhoodEast Lake                      -72.44953   10.87528  -6.662 2.76e-11 ***
+neighborhoodEdgewood                       -33.64526    8.30630  -4.051 5.13e-05 ***
+neighborhoodElmco Estates                  -47.61853   25.40651  -1.874 0.060906 .  
+neighborhoodEnglish Avenue                  -9.10065    7.71194  -1.180 0.237983    
+neighborhoodEnglish Park                    -8.81457   24.64719  -0.358 0.720624    
+neighborhoodFairburn                        -4.33549   20.49293  -0.212 0.832452    
+neighborhoodFairburn Heights               -43.15391   14.86651  -2.903 0.003702 ** 
+neighborhoodFairburn Mays                  -36.62452   10.59987  -3.455 0.000551 ***
+neighborhoodFairburn Road/Wisteria Lane     27.48272   37.85613   0.726 0.467860    
+neighborhoodFairburn Tell                   37.84429   99.91444   0.379 0.704864    
+neighborhoodFairway Acres                   15.97263   41.04548   0.389 0.697173    
+neighborhoodFernleaf                        72.87427   40.97382   1.779 0.075326 .  
+neighborhoodFlorida Heights                -18.94462   11.93221  -1.588 0.112371    
+neighborhoodFort McPherson                 -40.59108   70.64509  -0.575 0.565583    
+neighborhoodFort Valley                    -82.49135   16.77915  -4.916 8.88e-07 ***
+neighborhoodGarden Hills                    27.10014   10.74382   2.522 0.011663 *  
+neighborhoodGeorgia Tech                    37.27899   70.77658   0.527 0.598397    
+neighborhoodGlenrose Heights                 0.69584    8.58791   0.081 0.935423    
+neighborhoodGrant Park                     -31.08183    8.01020  -3.880 0.000105 ***
+neighborhoodGreen Acres Valley             -44.08826   44.76003  -0.985 0.324638    
+neighborhoodGreen Forest Acres               2.03632   35.43986   0.057 0.954181    
+neighborhoodGreenbriar                       1.99187    6.89060   0.289 0.772530    
+neighborhoodGreenbriar Village             -66.37890   35.56338  -1.866 0.061985 .  
+neighborhoodGrove Park                      -9.03229    7.57827  -1.192 0.233326    
+neighborhoodHammond Park                   -13.79550    9.10457  -1.515 0.129728    
+neighborhoodHanover West                    69.59290   44.85392   1.552 0.120785    
+neighborhoodHarland Terrace                -41.51953    7.72659  -5.374 7.79e-08 ***
+neighborhoodHarris Chiles                   44.46172   14.01375   3.173 0.001512 ** 
+neighborhoodHarvel Homes Community        -152.67153   70.75032  -2.158 0.030946 *  
+neighborhoodHeritage Valley                  2.94675   25.26591   0.117 0.907155    
+neighborhoodHigh Point                      65.19298   24.43187   2.668 0.007628 ** 
+neighborhoodHills Park                      40.89479   12.27356   3.332 0.000864 ***
+neighborhoodHome Park                      -10.48065    7.40120  -1.416 0.156767    
+neighborhoodHorseshoe Community            -27.55456   70.65781  -0.390 0.696561    
+neighborhoodHunter Hills                   -11.89208   10.20680  -1.165 0.243985    
+neighborhoodHuntington                      24.97747   57.91696   0.431 0.666281    
+neighborhoodInman Park                     -25.90631    8.62438  -3.004 0.002669 ** 
+neighborhoodIvan Hill                        0.18995   31.71820   0.006 0.995222    
+neighborhoodJoyland                        -88.90014   17.96302  -4.949 7.51e-07 ***
+neighborhoodJust Us                        115.46896   99.91957   1.156 0.247849    
+neighborhoodKings Forest                   -36.03929   14.50758  -2.484 0.012992 *  
+neighborhoodKingswood                       69.87008   70.79024   0.987 0.323652    
+neighborhoodKirkwood                       -62.46441   10.63492  -5.874 4.32e-09 ***
+neighborhoodKnight Park/Howell Station      71.46469   17.97371   3.976 7.03e-05 ***
+neighborhoodLake Claire                     -7.20788   16.14665  -0.446 0.655312    
+neighborhoodLake Estates                  -276.29395   99.93891  -2.765 0.005703 ** 
+neighborhoodLakewood                       -27.92744   16.77881  -1.664 0.096037 .  
+neighborhoodLakewood Heights               -23.93741    6.68351  -3.582 0.000342 ***
+neighborhoodLaurens Valley                  57.13108   70.66230   0.809 0.418806    
+neighborhoodLeila Valley                   -33.37532   15.27444  -2.185 0.028896 *  
+neighborhoodLenox                           27.69189    7.95826   3.480 0.000503 ***
+neighborhoodLincoln Homes                  -25.34098   20.47369  -1.238 0.215827    
+neighborhoodLindbergh/Morosgo               10.80412    6.90740   1.564 0.117799    
+neighborhoodLindridge/Martin Manor           5.64553    8.88628   0.635 0.525233    
+neighborhoodLoring Heights                  13.41215    9.19966   1.458 0.144883    
+neighborhoodMagnum Manor                    39.36476   33.44073   1.177 0.239148    
+neighborhoodMargaret Mitchell               57.26396   41.01351   1.396 0.162661    
+neighborhoodMarietta Street Artery          -3.36020   10.18978  -0.330 0.741583    
+neighborhoodMays                           -16.93900   13.39209  -1.265 0.205937    
+neighborhoodMeadowbrook Forest              -8.17084   30.40992  -0.269 0.788171    
+neighborhoodMechanicsville                  -6.86339    5.94492  -1.154 0.248308    
+neighborhoodMellwood                        74.03428   70.81976   1.045 0.295854    
+neighborhoodMemorial Park                   99.55969   70.72029   1.408 0.159205    
+neighborhoodMidtown                         -6.27314    6.39659  -0.981 0.326751    
+neighborhoodMidwest Cascade                 37.52394   17.51938   2.142 0.032216 *  
+neighborhoodMonroe Heights                   5.36775   16.82558   0.319 0.749712    
+neighborhoodMorningside/Lenox Park          25.70184    7.41261   3.467 0.000527 ***
+neighborhoodMozley Park                     -1.87526   11.56441  -0.162 0.871183    
+neighborhoodMt. Gilead Woods               -61.49966   37.94528  -1.621 0.105086    
+neighborhoodMt. Paran Parkway               31.53809  100.00090   0.315 0.752477    
+neighborhoodMt. Paran/Northside             -3.01141   24.97503  -0.121 0.904027    
+neighborhoodNiskey Cove                     15.94718   70.69396   0.226 0.821530    
+neighborhoodNiskey Lake                     51.94337   50.06304   1.038 0.299486    
+neighborhoodNorth Buckhead                  27.82748    8.05268   3.456 0.000550 ***
+neighborhoodNorwood Manor                  -13.85229   16.34179  -0.848 0.396636    
+neighborhoodOakcliff                        62.09365   38.09146   1.630 0.103090    
+neighborhoodOakland                        -38.31762   22.58001  -1.697 0.089716 .  
+neighborhoodOakland City                   -38.59791    7.52480  -5.129 2.93e-07 ***
+neighborhoodOld Fairburn Village            33.39344   99.87213   0.334 0.738109    
+neighborhoodOld Fourth Ward                -44.83256    7.70380  -5.820 5.98e-09 ***
+neighborhoodOld Gordon                      10.85688   22.39042   0.485 0.627759    
+neighborhoodOrchard Knob                     0.78361   17.60243   0.045 0.964492    
+neighborhoodOrmewood Park                  -67.87716   10.33249  -6.569 5.16e-11 ***
+neighborhoodPaces                           41.00845   20.26311   2.024 0.043002 *  
+neighborhoodPeachtree Battle Alliance       64.91933   28.09208   2.311 0.020844 *  
+neighborhoodPeachtree Heights East          31.94805   28.16690   1.134 0.256705    
+neighborhoodPeachtree Heights West          25.61904   11.94744   2.144 0.032018 *  
+neighborhoodPeachtree Hills                 31.59546   15.09141   2.094 0.036306 *  
+neighborhoodPeachtree Park                   7.34794   13.39376   0.549 0.583279    
+neighborhoodPenelope Neighbors             -74.93350   29.25135  -2.562 0.010422 *  
+neighborhoodPeoplestown                    -29.79353    8.88633  -3.353 0.000801 ***
+neighborhoodPerkerson                       12.11922    8.05798   1.504 0.132595    
+neighborhoodPeyton Forest                    9.89081   31.71770   0.312 0.755166    
+neighborhoodPiedmont Heights                 9.70736    8.48279   1.144 0.252487    
+neighborhoodPine Hills                       6.89367   10.68744   0.645 0.518917    
+neighborhoodPittsburgh                      -4.17695    6.86732  -0.608 0.543037    
+neighborhoodPleasant Hill                   46.81742   44.96644   1.041 0.297811    
+neighborhoodPolar Rock                       2.54844   18.58454   0.137 0.890932    
+neighborhoodPomona Park                     -0.70578   70.67374  -0.010 0.992032    
+neighborhoodPoncey-Highland                -21.83963   10.35687  -2.109 0.034980 *  
+neighborhoodPrinceton Lakes                 38.74837    7.75381   4.997 5.86e-07 ***
+neighborhoodRandall Mill                    39.14941   18.71892   2.091 0.036500 *  
+neighborhoodRebel Valley Forest             -9.37548   17.73253  -0.529 0.597007    
+neighborhoodReynoldstown                   -60.85620   11.67026  -5.215 1.86e-07 ***
+neighborhoodRidgecrest Forest              -31.98371   30.27555  -1.056 0.290787    
+neighborhoodRidgedale Park                   3.38582   20.30795   0.167 0.867589    
+neighborhoodRidgewood Heights               29.60442   29.14430   1.016 0.309741    
+neighborhoodRiverside                       21.50418   10.96684   1.961 0.049910 *  
+neighborhoodRockdale                        50.21705   15.40555   3.260 0.001117 ** 
+neighborhoodRosedale Heights               -23.77424   16.63523  -1.429 0.152975    
+neighborhoodRue Royal                     -177.49055   70.71990  -2.510 0.012088 *  
+neighborhoodSandlewood Estates              -3.36595   29.18066  -0.115 0.908170    
+neighborhoodScotts Crossing                 -1.25164   14.81232  -0.084 0.932660    
+neighborhoodSherwood Forest                -61.43911   50.32317  -1.221 0.222140    
+ [ reached getOption("max.print") -- omitted 43 rows ]
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 99.8 on 23172 degrees of freedom
+  (3344 observations deleted due to missingness)
+Multiple R-squared:  0.1493,	Adjusted R-squared:  0.1404 
+F-statistic:  16.8 on 242 and 23172 DF,  p-value: < 2.2e-16
+
+> vif(fit1)
+                         GVIF  Df GVIF^(1/(2*Df))
+beat                18.615002   1        4.314511
+MaxOfnum_victims     1.016947   1        1.008438
+loc_type             1.027692   1        1.013752
+neighborhood       201.207857 237        1.011253
+x                37103.058285   1      192.621542
+y                37121.328278   1      192.668960
+> vif(fit)>5
+                  GVIF    Df GVIF^(1/(2*Df))
+MinOfucr         FALSE FALSE           FALSE
+MaxOfnum_victims FALSE FALSE           FALSE
+loc_type         FALSE FALSE           FALSE
+neighborhood      TRUE  TRUE           FALSE
+x                 TRUE FALSE            TRUE
+y                 TRUE FALSE            TRUE
+> vif(fit1)>5
+                  GVIF    Df GVIF^(1/(2*Df))
+beat              TRUE FALSE           FALSE
+MaxOfnum_victims FALSE FALSE           FALSE
+loc_type         FALSE FALSE           FALSE
+neighborhood      TRUE  TRUE           FALSE
+x                 TRUE FALSE            TRUE
+y                 TRUE FALSE            TRUE
+> library(ggplot2)
+Error: package or namespace load failed for ‘ggplot2’ in get(method, envir = home):
+ lazy-load database 'C:/Users/Manish Chugh/Documents/R/win-library/3.5/ggplot2/R/ggplot2.rdb' is corrupt
+In addition: Warning messages:
+1: In .registerS3method(fin[i, 1], fin[i, 2], fin[i, 3], fin[i, 4],  :
+  restarting interrupted promise evaluation
+2: In get(method, envir = home) :
+  restarting interrupted promise evaluation
+3: In get(method, envir = home) : internal error -5 in R_decompress1
+> COBRA.YTD2017$hour <- sub(":.*", "", COBRA.YTD2017$occur_time)
+> COBRA.YTD2017$hour <- as.numeric(COBRA.YTD2017$hour)
+> ggplot(aes(x = hour), data = COBRA.YTD2017) + geom_histogram(bins = 24, color='white', fill='red') +
++   ggtitle('Histogram of Crime Time')
+Error in ggplot(aes(x = hour), data = COBRA.YTD2017) : 
+  could not find function "ggplot"
+> z<-table(COBRA.YTD2017$UC2.Literal)
+> hist(z)
+> #c. Which all attributes have correlation with crime rate? 
+> library(ggplot2)
+Error: package or namespace load failed for ‘ggplot2’ in get(method, envir = home):
+ lazy-load database 'C:/Users/Manish Chugh/Documents/R/win-library/3.5/ggplot2/R/ggplot2.rdb' is corrupt
+In addition: Warning messages:
+1: In .registerS3method(fin[i, 1], fin[i, 2], fin[i, 3], fin[i, 4],  :
+  restarting interrupted promise evaluation
+2: In get(method, envir = home) :
+  restarting interrupted promise evaluation
+3: In get(method, envir = home) : internal error -5 in R_decompress1
+> pairs(COBRA.YTD2017)
+Error in plot.new() : figure margins too large
+> install.packages("corrplot")
+Error in install.packages : Updating loaded packages
+> install.packages("corrplot")
+Installing package into ‘C:/Users/Manish Chugh/Documents/R/win-library/3.5’
+(as ‘lib’ is unspecified)
+Warning in install.packages :
+  package ‘corrplot’ is in use and will not be installed
+> library(corrplot)
+> rank1<-sample(COBRA.YTD2017[1:100,22:23], 20, replace=T)
+> rank2<-sample(COBRA.YTD2017[1:100,22:23], 20, replace=T)
+> cbind(rank1,rank2)
+           y         x      y.1      y.2       x.1      y.3       x.2       x.3      y.4       x.4       x.5
+1   33.75582 -84.38013 33.75582 33.75582 -84.38013 33.75582 -84.38013 -84.38013 33.75582 -84.38013 -84.38013
+2   33.78674 -84.39745 33.78674 33.78674 -84.39745 33.78674 -84.39745 -84.39745 33.78674 -84.39745 -84.39745
+3   33.73760 -84.39486 33.73760 33.73760 -84.39486 33.73760 -84.39486 -84.39486 33.73760 -84.39486 -84.39486
+4   33.75156 -84.39887 33.75156 33.75156 -84.39887 33.75156 -84.39887 -84.39887 33.75156 -84.39887 -84.39887
+5   33.72146 -84.46522 33.72146 33.72146 -84.46522 33.72146 -84.46522 -84.46522 33.72146 -84.46522 -84.46522
+6   33.74006 -84.34660 33.74006 33.74006 -84.34660 33.74006 -84.34660 -84.34660 33.74006 -84.34660 -84.34660
+7   33.74505 -84.37373 33.74505 33.74505 -84.37373 33.74505 -84.37373 -84.37373 33.74505 -84.37373 -84.37373
+8   33.77303 -84.37190 33.77303 33.77303 -84.37190 33.77303 -84.37190 -84.37190 33.77303 -84.37190 -84.37190
+9   33.74639 -84.37285 33.74639 33.74639 -84.37285 33.74639 -84.37285 -84.37285 33.74639 -84.37285 -84.37285
+10  33.72579 -84.38625 33.72579 33.72579 -84.38625 33.72579 -84.38625 -84.38625 33.72579 -84.38625 -84.38625
+11  33.73616 -84.39495 33.73616 33.73616 -84.39495 33.73616 -84.39495 -84.39495 33.73616 -84.39495 -84.39495
+12  33.74974 -84.43192 33.74974 33.74974 -84.43192 33.74974 -84.43192 -84.43192 33.74974 -84.43192 -84.43192
+13  33.68243 -84.40766 33.68243 33.68243 -84.40766 33.68243 -84.40766 -84.40766 33.68243 -84.40766 -84.40766
+14  33.71691 -84.39276 33.71691 33.71691 -84.39276 33.71691 -84.39276 -84.39276 33.71691 -84.39276 -84.39276
+15  33.73048 -84.38742 33.73048 33.73048 -84.38742 33.73048 -84.38742 -84.38742 33.73048 -84.38742 -84.38742
+16  33.70087 -84.46574 33.70087 33.70087 -84.46574 33.70087 -84.46574 -84.46574 33.70087 -84.46574 -84.46574
+17  33.75831 -84.43107 33.75831 33.75831 -84.43107 33.75831 -84.43107 -84.43107 33.75831 -84.43107 -84.43107
+18  33.79671 -84.47527 33.79671 33.79671 -84.47527 33.79671 -84.47527 -84.47527 33.79671 -84.47527 -84.47527
+19  33.70678 -84.38031 33.70678 33.70678 -84.38031 33.70678 -84.38031 -84.38031 33.70678 -84.38031 -84.38031
+20  33.84746 -84.36983 33.84746 33.84746 -84.36983 33.84746 -84.36983 -84.36983 33.84746 -84.36983 -84.36983
+21  33.75757 -84.33868 33.75757 33.75757 -84.33868 33.75757 -84.33868 -84.33868 33.75757 -84.33868 -84.33868
+22  33.77067 -84.38023 33.77067 33.77067 -84.38023 33.77067 -84.38023 -84.38023 33.77067 -84.38023 -84.38023
+23  33.70369 -84.40795 33.70369 33.70369 -84.40795 33.70369 -84.40795 -84.40795 33.70369 -84.40795 -84.40795
+24  33.75437 -84.43089 33.75437 33.75437 -84.43089 33.75437 -84.43089 -84.43089 33.75437 -84.43089 -84.43089
+25  33.74647 -84.42057 33.74647 33.74647 -84.42057 33.74647 -84.42057 -84.42057 33.74647 -84.42057 -84.42057
+         y.5       x.6       x.7       x.8       x.9      x.10      x.11      x.12      y.6         x
+1   33.75582 -84.38013 -84.38013 -84.38013 -84.38013 -84.38013 -84.38013 -84.38013 33.75582 -84.38013
+2   33.78674 -84.39745 -84.39745 -84.39745 -84.39745 -84.39745 -84.39745 -84.39745 33.78674 -84.39745
+3   33.73760 -84.39486 -84.39486 -84.39486 -84.39486 -84.39486 -84.39486 -84.39486 33.73760 -84.39486
+4   33.75156 -84.39887 -84.39887 -84.39887 -84.39887 -84.39887 -84.39887 -84.39887 33.75156 -84.39887
+5   33.72146 -84.46522 -84.46522 -84.46522 -84.46522 -84.46522 -84.46522 -84.46522 33.72146 -84.46522
+6   33.74006 -84.34660 -84.34660 -84.34660 -84.34660 -84.34660 -84.34660 -84.34660 33.74006 -84.34660
+7   33.74505 -84.37373 -84.37373 -84.37373 -84.37373 -84.37373 -84.37373 -84.37373 33.74505 -84.37373
+8   33.77303 -84.37190 -84.37190 -84.37190 -84.37190 -84.37190 -84.37190 -84.37190 33.77303 -84.37190
+9   33.74639 -84.37285 -84.37285 -84.37285 -84.37285 -84.37285 -84.37285 -84.37285 33.74639 -84.37285
+10  33.72579 -84.38625 -84.38625 -84.38625 -84.38625 -84.38625 -84.38625 -84.38625 33.72579 -84.38625
+11  33.73616 -84.39495 -84.39495 -84.39495 -84.39495 -84.39495 -84.39495 -84.39495 33.73616 -84.39495
+12  33.74974 -84.43192 -84.43192 -84.43192 -84.43192 -84.43192 -84.43192 -84.43192 33.74974 -84.43192
+13  33.68243 -84.40766 -84.40766 -84.40766 -84.40766 -84.40766 -84.40766 -84.40766 33.68243 -84.40766
+14  33.71691 -84.39276 -84.39276 -84.39276 -84.39276 -84.39276 -84.39276 -84.39276 33.71691 -84.39276
+15  33.73048 -84.38742 -84.38742 -84.38742 -84.38742 -84.38742 -84.38742 -84.38742 33.73048 -84.38742
+16  33.70087 -84.46574 -84.46574 -84.46574 -84.46574 -84.46574 -84.46574 -84.46574 33.70087 -84.46574
+17  33.75831 -84.43107 -84.43107 -84.43107 -84.43107 -84.43107 -84.43107 -84.43107 33.75831 -84.43107
+18  33.79671 -84.47527 -84.47527 -84.47527 -84.47527 -84.47527 -84.47527 -84.47527 33.79671 -84.47527
+19  33.70678 -84.38031 -84.38031 -84.38031 -84.38031 -84.38031 -84.38031 -84.38031 33.70678 -84.38031
+20  33.84746 -84.36983 -84.36983 -84.36983 -84.36983 -84.36983 -84.36983 -84.36983 33.84746 -84.36983
+21  33.75757 -84.33868 -84.33868 -84.33868 -84.33868 -84.33868 -84.33868 -84.33868 33.75757 -84.33868
+22  33.77067 -84.38023 -84.38023 -84.38023 -84.38023 -84.38023 -84.38023 -84.38023 33.77067 -84.38023
+23  33.70369 -84.40795 -84.40795 -84.40795 -84.40795 -84.40795 -84.40795 -84.40795 33.70369 -84.40795
+24  33.75437 -84.43089 -84.43089 -84.43089 -84.43089 -84.43089 -84.43089 -84.43089 33.75437 -84.43089
+25  33.74647 -84.42057 -84.42057 -84.42057 -84.42057 -84.42057 -84.42057 -84.42057 33.74647 -84.42057
+           y      y.1       x.1      y.2      y.3       x.2       x.3      y.4      y.5      y.6       x.4
+1   33.75582 33.75582 -84.38013 33.75582 33.75582 -84.38013 -84.38013 33.75582 33.75582 33.75582 -84.38013
+2   33.78674 33.78674 -84.39745 33.78674 33.78674 -84.39745 -84.39745 33.78674 33.78674 33.78674 -84.39745
+3   33.73760 33.73760 -84.39486 33.73760 33.73760 -84.39486 -84.39486 33.73760 33.73760 33.73760 -84.39486
+4   33.75156 33.75156 -84.39887 33.75156 33.75156 -84.39887 -84.39887 33.75156 33.75156 33.75156 -84.39887
+5   33.72146 33.72146 -84.46522 33.72146 33.72146 -84.46522 -84.46522 33.72146 33.72146 33.72146 -84.46522
+6   33.74006 33.74006 -84.34660 33.74006 33.74006 -84.34660 -84.34660 33.74006 33.74006 33.74006 -84.34660
+7   33.74505 33.74505 -84.37373 33.74505 33.74505 -84.37373 -84.37373 33.74505 33.74505 33.74505 -84.37373
+8   33.77303 33.77303 -84.37190 33.77303 33.77303 -84.37190 -84.37190 33.77303 33.77303 33.77303 -84.37190
+9   33.74639 33.74639 -84.37285 33.74639 33.74639 -84.37285 -84.37285 33.74639 33.74639 33.74639 -84.37285
+10  33.72579 33.72579 -84.38625 33.72579 33.72579 -84.38625 -84.38625 33.72579 33.72579 33.72579 -84.38625
+11  33.73616 33.73616 -84.39495 33.73616 33.73616 -84.39495 -84.39495 33.73616 33.73616 33.73616 -84.39495
+12  33.74974 33.74974 -84.43192 33.74974 33.74974 -84.43192 -84.43192 33.74974 33.74974 33.74974 -84.43192
+13  33.68243 33.68243 -84.40766 33.68243 33.68243 -84.40766 -84.40766 33.68243 33.68243 33.68243 -84.40766
+14  33.71691 33.71691 -84.39276 33.71691 33.71691 -84.39276 -84.39276 33.71691 33.71691 33.71691 -84.39276
+15  33.73048 33.73048 -84.38742 33.73048 33.73048 -84.38742 -84.38742 33.73048 33.73048 33.73048 -84.38742
+16  33.70087 33.70087 -84.46574 33.70087 33.70087 -84.46574 -84.46574 33.70087 33.70087 33.70087 -84.46574
+17  33.75831 33.75831 -84.43107 33.75831 33.75831 -84.43107 -84.43107 33.75831 33.75831 33.75831 -84.43107
+18  33.79671 33.79671 -84.47527 33.79671 33.79671 -84.47527 -84.47527 33.79671 33.79671 33.79671 -84.47527
+19  33.70678 33.70678 -84.38031 33.70678 33.70678 -84.38031 -84.38031 33.70678 33.70678 33.70678 -84.38031
+20  33.84746 33.84746 -84.36983 33.84746 33.84746 -84.36983 -84.36983 33.84746 33.84746 33.84746 -84.36983
+21  33.75757 33.75757 -84.33868 33.75757 33.75757 -84.33868 -84.33868 33.75757 33.75757 33.75757 -84.33868
+22  33.77067 33.77067 -84.38023 33.77067 33.77067 -84.38023 -84.38023 33.77067 33.77067 33.77067 -84.38023
+23  33.70369 33.70369 -84.40795 33.70369 33.70369 -84.40795 -84.40795 33.70369 33.70369 33.70369 -84.40795
+24  33.75437 33.75437 -84.43089 33.75437 33.75437 -84.43089 -84.43089 33.75437 33.75437 33.75437 -84.43089
+25  33.74647 33.74647 -84.42057 33.74647 33.74647 -84.42057 -84.42057 33.74647 33.74647 33.74647 -84.42057
+         y.7      y.8      y.9     y.10     y.11       x.5     y.12     y.13
+1   33.75582 33.75582 33.75582 33.75582 33.75582 -84.38013 33.75582 33.75582
+2   33.78674 33.78674 33.78674 33.78674 33.78674 -84.39745 33.78674 33.78674
+3   33.73760 33.73760 33.73760 33.73760 33.73760 -84.39486 33.73760 33.73760
+4   33.75156 33.75156 33.75156 33.75156 33.75156 -84.39887 33.75156 33.75156
+5   33.72146 33.72146 33.72146 33.72146 33.72146 -84.46522 33.72146 33.72146
+6   33.74006 33.74006 33.74006 33.74006 33.74006 -84.34660 33.74006 33.74006
+7   33.74505 33.74505 33.74505 33.74505 33.74505 -84.37373 33.74505 33.74505
+8   33.77303 33.77303 33.77303 33.77303 33.77303 -84.37190 33.77303 33.77303
+9   33.74639 33.74639 33.74639 33.74639 33.74639 -84.37285 33.74639 33.74639
+10  33.72579 33.72579 33.72579 33.72579 33.72579 -84.38625 33.72579 33.72579
+11  33.73616 33.73616 33.73616 33.73616 33.73616 -84.39495 33.73616 33.73616
+12  33.74974 33.74974 33.74974 33.74974 33.74974 -84.43192 33.74974 33.74974
+13  33.68243 33.68243 33.68243 33.68243 33.68243 -84.40766 33.68243 33.68243
+14  33.71691 33.71691 33.71691 33.71691 33.71691 -84.39276 33.71691 33.71691
+15  33.73048 33.73048 33.73048 33.73048 33.73048 -84.38742 33.73048 33.73048
+16  33.70087 33.70087 33.70087 33.70087 33.70087 -84.46574 33.70087 33.70087
+17  33.75831 33.75831 33.75831 33.75831 33.75831 -84.43107 33.75831 33.75831
+18  33.79671 33.79671 33.79671 33.79671 33.79671 -84.47527 33.79671 33.79671
+19  33.70678 33.70678 33.70678 33.70678 33.70678 -84.38031 33.70678 33.70678
+20  33.84746 33.84746 33.84746 33.84746 33.84746 -84.36983 33.84746 33.84746
+21  33.75757 33.75757 33.75757 33.75757 33.75757 -84.33868 33.75757 33.75757
+22  33.77067 33.77067 33.77067 33.77067 33.77067 -84.38023 33.77067 33.77067
+23  33.70369 33.70369 33.70369 33.70369 33.70369 -84.40795 33.70369 33.70369
+24  33.75437 33.75437 33.75437 33.75437 33.75437 -84.43089 33.75437 33.75437
+25  33.74647 33.74647 33.74647 33.74647 33.74647 -84.42057 33.74647 33.74647
+ [ reached getOption("max.print") -- omitted 75 rows ]
+> plot(rank1, rank2)
+> cor(rank1,rank2, method="spearman")
+              x          y        y.1        x.1        y.2        y.3        x.2        x.3        y.4
+y    0.04033652 1.00000000 1.00000000 0.04033652 1.00000000 1.00000000 0.04033652 0.04033652 1.00000000
+x    1.00000000 0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 1.00000000 1.00000000 0.04033652
+y.1  0.04033652 1.00000000 1.00000000 0.04033652 1.00000000 1.00000000 0.04033652 0.04033652 1.00000000
+y.2  0.04033652 1.00000000 1.00000000 0.04033652 1.00000000 1.00000000 0.04033652 0.04033652 1.00000000
+x.1  1.00000000 0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 1.00000000 1.00000000 0.04033652
+y.3  0.04033652 1.00000000 1.00000000 0.04033652 1.00000000 1.00000000 0.04033652 0.04033652 1.00000000
+x.2  1.00000000 0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 1.00000000 1.00000000 0.04033652
+x.3  1.00000000 0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 1.00000000 1.00000000 0.04033652
+y.4  0.04033652 1.00000000 1.00000000 0.04033652 1.00000000 1.00000000 0.04033652 0.04033652 1.00000000
+x.4  1.00000000 0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 1.00000000 1.00000000 0.04033652
+x.5  1.00000000 0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 1.00000000 1.00000000 0.04033652
+y.5  0.04033652 1.00000000 1.00000000 0.04033652 1.00000000 1.00000000 0.04033652 0.04033652 1.00000000
+x.6  1.00000000 0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 1.00000000 1.00000000 0.04033652
+x.7  1.00000000 0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 1.00000000 1.00000000 0.04033652
+x.8  1.00000000 0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 1.00000000 1.00000000 0.04033652
+x.9  1.00000000 0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 1.00000000 1.00000000 0.04033652
+x.10 1.00000000 0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 1.00000000 1.00000000 0.04033652
+x.11 1.00000000 0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 1.00000000 1.00000000 0.04033652
+x.12 1.00000000 0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 1.00000000 1.00000000 0.04033652
+y.6  0.04033652 1.00000000 1.00000000 0.04033652 1.00000000 1.00000000 0.04033652 0.04033652 1.00000000
+            y.5        y.6        x.4        y.7        y.8        y.9       y.10       y.11        x.5
+y    1.00000000 1.00000000 0.04033652 1.00000000 1.00000000 1.00000000 1.00000000 1.00000000 0.04033652
+x    0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 0.04033652 0.04033652 0.04033652 1.00000000
+y.1  1.00000000 1.00000000 0.04033652 1.00000000 1.00000000 1.00000000 1.00000000 1.00000000 0.04033652
+y.2  1.00000000 1.00000000 0.04033652 1.00000000 1.00000000 1.00000000 1.00000000 1.00000000 0.04033652
+x.1  0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 0.04033652 0.04033652 0.04033652 1.00000000
+y.3  1.00000000 1.00000000 0.04033652 1.00000000 1.00000000 1.00000000 1.00000000 1.00000000 0.04033652
+x.2  0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 0.04033652 0.04033652 0.04033652 1.00000000
+x.3  0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 0.04033652 0.04033652 0.04033652 1.00000000
+y.4  1.00000000 1.00000000 0.04033652 1.00000000 1.00000000 1.00000000 1.00000000 1.00000000 0.04033652
+x.4  0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 0.04033652 0.04033652 0.04033652 1.00000000
+x.5  0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 0.04033652 0.04033652 0.04033652 1.00000000
+y.5  1.00000000 1.00000000 0.04033652 1.00000000 1.00000000 1.00000000 1.00000000 1.00000000 0.04033652
+x.6  0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 0.04033652 0.04033652 0.04033652 1.00000000
+x.7  0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 0.04033652 0.04033652 0.04033652 1.00000000
+x.8  0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 0.04033652 0.04033652 0.04033652 1.00000000
+x.9  0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 0.04033652 0.04033652 0.04033652 1.00000000
+x.10 0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 0.04033652 0.04033652 0.04033652 1.00000000
+x.11 0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 0.04033652 0.04033652 0.04033652 1.00000000
+x.12 0.04033652 0.04033652 1.00000000 0.04033652 0.04033652 0.04033652 0.04033652 0.04033652 1.00000000
+y.6  1.00000000 1.00000000 0.04033652 1.00000000 1.00000000 1.00000000 1.00000000 1.00000000 0.04033652
+           y.12       y.13
+y    1.00000000 1.00000000
+x    0.04033652 0.04033652
+y.1  1.00000000 1.00000000
+y.2  1.00000000 1.00000000
+x.1  0.04033652 0.04033652
+y.3  1.00000000 1.00000000
+x.2  0.04033652 0.04033652
+x.3  0.04033652 0.04033652
+y.4  1.00000000 1.00000000
+x.4  0.04033652 0.04033652
+x.5  0.04033652 0.04033652
+y.5  1.00000000 1.00000000
+x.6  0.04033652 0.04033652
+x.7  0.04033652 0.04033652
+x.8  0.04033652 0.04033652
+x.9  0.04033652 0.04033652
+x.10 0.04033652 0.04033652
+x.11 0.04033652 0.04033652
+x.12 0.04033652 0.04033652
+y.6  1.00000000 1.00000000
+> cor(rank1,rank2, method="pearson")
+              x          y        y.1        x.1        y.2        y.3        x.2        x.3        y.4
+y    -0.9999385  1.0000000  1.0000000 -0.9999385  1.0000000  1.0000000 -0.9999385 -0.9999385  1.0000000
+x     1.0000000 -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385  1.0000000  1.0000000 -0.9999385
+y.1  -0.9999385  1.0000000  1.0000000 -0.9999385  1.0000000  1.0000000 -0.9999385 -0.9999385  1.0000000
+y.2  -0.9999385  1.0000000  1.0000000 -0.9999385  1.0000000  1.0000000 -0.9999385 -0.9999385  1.0000000
+x.1   1.0000000 -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385  1.0000000  1.0000000 -0.9999385
+y.3  -0.9999385  1.0000000  1.0000000 -0.9999385  1.0000000  1.0000000 -0.9999385 -0.9999385  1.0000000
+x.2   1.0000000 -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385  1.0000000  1.0000000 -0.9999385
+x.3   1.0000000 -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385  1.0000000  1.0000000 -0.9999385
+y.4  -0.9999385  1.0000000  1.0000000 -0.9999385  1.0000000  1.0000000 -0.9999385 -0.9999385  1.0000000
+x.4   1.0000000 -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385  1.0000000  1.0000000 -0.9999385
+x.5   1.0000000 -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385  1.0000000  1.0000000 -0.9999385
+y.5  -0.9999385  1.0000000  1.0000000 -0.9999385  1.0000000  1.0000000 -0.9999385 -0.9999385  1.0000000
+x.6   1.0000000 -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385  1.0000000  1.0000000 -0.9999385
+x.7   1.0000000 -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385  1.0000000  1.0000000 -0.9999385
+x.8   1.0000000 -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385  1.0000000  1.0000000 -0.9999385
+x.9   1.0000000 -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385  1.0000000  1.0000000 -0.9999385
+x.10  1.0000000 -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385  1.0000000  1.0000000 -0.9999385
+x.11  1.0000000 -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385  1.0000000  1.0000000 -0.9999385
+x.12  1.0000000 -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385  1.0000000  1.0000000 -0.9999385
+y.6  -0.9999385  1.0000000  1.0000000 -0.9999385  1.0000000  1.0000000 -0.9999385 -0.9999385  1.0000000
+            y.5        y.6        x.4        y.7        y.8        y.9       y.10       y.11        x.5
+y     1.0000000  1.0000000 -0.9999385  1.0000000  1.0000000  1.0000000  1.0000000  1.0000000 -0.9999385
+x    -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385 -0.9999385 -0.9999385 -0.9999385  1.0000000
+y.1   1.0000000  1.0000000 -0.9999385  1.0000000  1.0000000  1.0000000  1.0000000  1.0000000 -0.9999385
+y.2   1.0000000  1.0000000 -0.9999385  1.0000000  1.0000000  1.0000000  1.0000000  1.0000000 -0.9999385
+x.1  -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385 -0.9999385 -0.9999385 -0.9999385  1.0000000
+y.3   1.0000000  1.0000000 -0.9999385  1.0000000  1.0000000  1.0000000  1.0000000  1.0000000 -0.9999385
+x.2  -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385 -0.9999385 -0.9999385 -0.9999385  1.0000000
+x.3  -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385 -0.9999385 -0.9999385 -0.9999385  1.0000000
+y.4   1.0000000  1.0000000 -0.9999385  1.0000000  1.0000000  1.0000000  1.0000000  1.0000000 -0.9999385
+x.4  -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385 -0.9999385 -0.9999385 -0.9999385  1.0000000
+x.5  -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385 -0.9999385 -0.9999385 -0.9999385  1.0000000
+y.5   1.0000000  1.0000000 -0.9999385  1.0000000  1.0000000  1.0000000  1.0000000  1.0000000 -0.9999385
+x.6  -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385 -0.9999385 -0.9999385 -0.9999385  1.0000000
+x.7  -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385 -0.9999385 -0.9999385 -0.9999385  1.0000000
+x.8  -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385 -0.9999385 -0.9999385 -0.9999385  1.0000000
+x.9  -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385 -0.9999385 -0.9999385 -0.9999385  1.0000000
+x.10 -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385 -0.9999385 -0.9999385 -0.9999385  1.0000000
+x.11 -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385 -0.9999385 -0.9999385 -0.9999385  1.0000000
+x.12 -0.9999385 -0.9999385  1.0000000 -0.9999385 -0.9999385 -0.9999385 -0.9999385 -0.9999385  1.0000000
+y.6   1.0000000  1.0000000 -0.9999385  1.0000000  1.0000000  1.0000000  1.0000000  1.0000000 -0.9999385
+           y.12       y.13
+y     1.0000000  1.0000000
+x    -0.9999385 -0.9999385
+y.1   1.0000000  1.0000000
+y.2   1.0000000  1.0000000
+x.1  -0.9999385 -0.9999385
+y.3   1.0000000  1.0000000
+x.2  -0.9999385 -0.9999385
+x.3  -0.9999385 -0.9999385
+y.4   1.0000000  1.0000000
+x.4  -0.9999385 -0.9999385
+x.5  -0.9999385 -0.9999385
+y.5   1.0000000  1.0000000
+x.6  -0.9999385 -0.9999385
+x.7  -0.9999385 -0.9999385
+x.8  -0.9999385 -0.9999385
+x.9  -0.9999385 -0.9999385
+x.10 -0.9999385 -0.9999385
+x.11 -0.9999385 -0.9999385
+x.12 -0.9999385 -0.9999385
+y.6   1.0000000  1.0000000
