@@ -76,12 +76,14 @@ library(ggplot2)
 COBRA.YTD2017$hour <- sub(":.*", "", COBRA.YTD2017$occur_time)
 COBRA.YTD2017$hour <- as.numeric(COBRA.YTD2017$hour)
 ggplot(aes(x = hour), data = COBRA.YTD2017) + geom_histogram(bins = 24, color='white', fill='red') +
-  ggtitle('Histogram of Crime Time')
-
+  ggtitle('Histogram of Crime Rate')
 
 z<-table(COBRA.YTD2017$UC2.Literal)
 hist(z)
 
+plot path:  
+        DATA-ANALYTICS-WITH-R-EXCEL-TABLEAU_Session13Assignment13.1/13.1b-frequency of crime rate in city.png
+      
 
 c. Which all attributes have correlation with crime rate?
 Answer:
@@ -97,6 +99,9 @@ plot(rank1, rank2)
 cor(rank1,rank2, method="spearman")
 cor(rank1,rank2, method="pearson")
 
+plot path: 
+        DATA-ANALYTICS-WITH-R-EXCEL-TABLEAU_Session13Assignment13.1/13.1c attributes having correlation with crime rate.png
+      
 
    Expected Output
 Not Applicable
